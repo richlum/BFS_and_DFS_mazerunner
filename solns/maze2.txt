@@ -1,0 +1,29 @@
+random
+(0,0)(0,1) (0,2) (0,3) (1,3) (2,3) (3,3) (3,2) (4,2) (4,1) (5,1) (6,1) (6,2) (6,3) (5,3) (5,4) (6,4)
+DFS Solution----
+(0,0)(0,1) (0,2) (0,3) (1,3) (2,3) (2,4) (3,4) (4,4) (5,4) (6,4)
+------Stack Usage Statistics ---------
+	pushCount = 53
+	popCount = 51
+	maxSize = 16
+------Stack Usage Statistics ---------
+
+Expanding ArrayBFS Solution------
+(0,0)(0,1) (0,2) (0,3) (1,3) (2,3) (2,4) (3,4) (4,4) (5,4) (6,4)
+----------Circular Array Usage Statistics ----------
+	PushCount = 29
+	PopCount = 28
+	Max Array Size used = 5
+----------Circular Array Usage Statistics ----------
+7 5
++-+-+-+-+-+-+-+
+|*|   | | |   |
++ +-+ + + +-+ +
+|   |   |     |
++ + + +-+ +-+ +
+| |   |     | |
++ +-+-+ +-+-+ +
+|       |     |
++-+ + +-+-+ +-+
+|   |        X|
++-+-+-+-+-+-+-+
